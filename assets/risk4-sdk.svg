@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600">
+  <title>RISK4 — ProtoOS Application SDK</title>
+  <desc>The original RISK4 wordmark in white and orange on a dark engineering SDK banner.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1600" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b0c0e"/><stop offset="1" stop-color="#15100d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="600" fill="url(#surface)"/>
+  <path d="M1270-80H1600V600H1070Z" fill="#ff5007" opacity=".035"/>
+  <path d="M1440-80H1510L1300 680H1230Z" fill="#ff5007" opacity=".035"/>
+  <path d="M1370 0 1200 600" fill="none" stroke="#ff5007" stroke-opacity=".10"/>
+  <rect x="88" y="66" width="7" height="7" fill="#ff5007"/>
+  <text x="109" y="76" fill="#b5aca5" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="3">PROTOOS / DEVELOPER KIT</text>
+  <text x="1512" y="76" text-anchor="end" fill="#8c827c" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2">ENGINEERING PREVIEW</text>
+  <svg x="72" y="136" width="830" height="207.5" viewBox="60 40 656 164">
+    <g id="risk" fill="#fafaf8">
+      <path id="letter-r" d="M114 164 137 89H225Q248 89 241 111L237 124Q233 138 214 138H204L231 164H196L171 140 154 134 158 123H209Q213 123 214 119L217 109H156L139 164Z"/>
+      <path id="letter-i" d="M238 164 261 89H286L263 164Z"/>
+      <path id="letter-s" d="M279 164 284 147H354Q360 147 362 140L363 136H305Q285 136 291 118L295 106Q301 89 321 89H403L398 106H327Q321 106 319 112L317 118H374Q394 118 388 138L385 148Q380 164 361 164Z"/>
+      <path id="letter-k" d="M397 164 419 89H443L433 122 487 89H524L463 127 505 164H472L428 133 421 164Z"/>
+    </g>
+    <g id="badge">
+      <path fill="#ff5007" d="M505 140 595 69H685L666 181H568L557 171H534Z"/>
+      <path fill="#030303" fill-rule="evenodd" d="M546 148 551 131 622 82H645L631 131H655L641 148H626L623 160 601 174 608 148ZM569 131H613L619 106Z"/>
+    </g>
+    <path id="outline" fill="none" stroke="#fafaf8" stroke-width="5" stroke-linejoin="miter" d="M556 184H87L75 171 96 83 113 69H573L589 54H702L678 193H565Z"/>
+  </svg>
+  <path d="M974 158V330" fill="none" stroke="#544037" stroke-width="1"/>
+  <text x="1044" y="179" fill="#ff6728" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="4">APPLICATION</text>
+  <text x="1037" y="315" fill="#fafaf8" font-family="Arial,Helvetica,sans-serif" font-size="148" font-weight="700" letter-spacing="-5">SDK</text>
+  <text x="88" y="410" fill="#e1dcd7" font-family="Arial,Helvetica,sans-serif" font-size="36" letter-spacing="-.5">A next-generation microcontroller platform.</text>
+  <text x="88" y="452" fill="#b5aca5" font-family="Arial,Helvetica,sans-serif" font-size="22">Your board. Your tools. Your device. Built on ESP32-P4.</text>
+  <path d="M88 486H1512" fill="none" stroke="#594236" stroke-opacity=".7"/>
+  <text x="88" y="533" fill="#9a8d84" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="2.5">ISOLATION / PERMISSIONS / NATIVE APPS / HARDWARE</text>
+  <text x="1512" y="533" text-anchor="end" fill="#9a8d84" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="2.5">RISC-V / RV32</text>
+</svg>

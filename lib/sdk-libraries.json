@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "source_revision": "e7613da8ed1597279021b3369efe70b2b99dbb69",
+  "kernel_abi": 26,
+  "compiler": "riscv32-esp-elf-gcc.exe (crosstool-NG esp-14.2.0_20260121) 14.2.0",
+  "flags": [
+    "-Os",
+    "-ffreestanding",
+    "-fno-builtin",
+    "-fvisibility=hidden",
+    "-fPIE",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-march=rv32imafc_zicsr_zifencei",
+    "-mabi=ilp32f",
+    "-msmall-data-limit=0",
+    "-mno-relax",
+    "-fno-ident",
+    "-g0"
+  ],
+  "profiles": {
+    "core": {
+      "path": "lib/libproto_core.a",
+      "sha256": "69dfba2a167abbbd7fe2f3b49e77c9fc6ece2b12bb8e8f97073430c9a5fa22d8"
+    },
+    "full": {
+      "path": "lib/libproto_full.a",
+      "sha256": "c97a1106e5fbe178172b1c5e4da13761226d87172c931ad831817a28c67fd232"
+    }
+  }
+}
