@@ -58,14 +58,14 @@ and serial deployment are not acceptance-tested by this release.
 
 ## Device prerequisites and expected behavior
 
-Request compatible ProtoOS firmware from the owner for the exact board and P4
-revision. P4 v1/v3 firmware images differ. Do not flash these app bundles as
-firmware, and do not assume an integrated LILYGO panel/radio is supported.
+For an evaluation build, let me know your board model and P4 revision.
+I'll provide matching firmware and installation instructions. P4 v1/v3 images
+differ; `.pelf` app bundles are installed within ProtoOS, not flashed as firmware.
 
-After logging into a compatible device, transfer the unsigned development
-bundle using the owner's approved development-install procedure and open it
-in the ProtoELF installer. Installation policy may deny unsigned apps. If a
-bundle is already at the following path, the device terminal commands are:
+After logging into the device, transfer the development bundle using the
+instructions supplied with the firmware and open it in the ProtoELF installer.
+Unsigned installs must be enabled by the firmware's development policy.
+For a bundle already at the following path, use these terminal commands:
 
 ```text
 install-bundle /shared/downloads/hello.pelf
@@ -90,5 +90,5 @@ then deliberately attempts a privileged CSR read. Launch it with
 Serial commands require `python -m pip install pyserial`, exclusive access to
 the device port and a logged-in ProtoOS terminal. `deploy --help` describes the
 available options; serial transfer/install/recovery remain device checks.
-Release signing additionally requires `cryptography` and separately managed
-owner keys; no signing keys or signed release are supplied here.
+Release signing additionally requires `cryptography` and your release signing
+keys. Signing keys aren't included in the SDK.

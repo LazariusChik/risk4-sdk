@@ -66,6 +66,5 @@ Secure Boot, flash encryption or hardware rollback protection.
 
 ## Reporting an issue
 
-Use GitHub's private vulnerability reporting if enabled, or contact the
-maintainer privately. Keep credentials, signing keys and exploit details out
-of public issues.
+For security reports, open an issue asking me for a private contact without
+posting exploit details. I'll arrange a way to share them privately.

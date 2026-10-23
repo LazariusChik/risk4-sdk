@@ -47,8 +47,8 @@ HUD composition. Both app helper libraries are included; see the
 
 ## SDK status
 
-The four examples pass detached compilation, ELF checks and packaging with
-the documented toolchain. Their device execution for this snapshot is pending.
+I've verified compilation, ELF checks and packaging for all four examples
+with the documented toolchain. Device checks are listed in the [build guide](build.md).
 Runtime feature discovery determines which optional APIs a firmware provides;
 reserved foundation declarations do not establish implementation. Current
 foundation discovery reports `PROTO_FEATURE_FILE_LIFECYCLE`.

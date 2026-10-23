@@ -28,8 +28,7 @@ pipes are implemented. A zero limit is unreported/unimplemented.
 
 The `full` profile links the compiled high-level `proto_3d_*` helpers;
 `core` deliberately omits them for apps that do not need 3D. The renderer and
-game assets remain separate. Console/mechanical design is outside this SDK.
-No ESP-IDF, FreeRTOS, FATFS or display-driver implementation is needed
+game assets remain separate. No ESP-IDF, FreeRTOS, FATFS or display-driver implementation is needed
 by an app build; apps call the SDK/syscall interface.
 
 U-mode/PMP, authenticated dispatch, capabilities, pointer ownership and live

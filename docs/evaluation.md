@@ -1,11 +1,11 @@
-# Proposed LILYGO engineering evaluation
+# LILYGO integration
 
-Goal: bring RISK4's native applications, isolation and hardware interfaces to an
-agreed LILYGO ESP32-P4 board as a foundation for hardware tools, connected
-devices and custom interfaces. Graphics and games are additional use cases.
-**Status: proposed; no LILYGO board acceptance
-is recorded by this package.** This is a software port discussion, separate from
-console product or mechanical design.
+I'd like to bring RISK4's native apps, isolation and hardware interfaces to
+LILYGO ESP32-P4 boards for hardware tools, connected devices and custom
+interfaces. Graphics and games are additional use cases.
+
+I'll handle the software port. To get started, I need an evaluation board,
+its schematic and an engineering contact for board-specific questions.
 
 ## Information to exchange before the port
 
@@ -44,9 +44,8 @@ references, not configuration files for a T-Display P4.
 7. Provide an evaluation image, exact install/recovery instructions and a
    short device demonstration after acceptance checks are complete.
 
-Schedule should be confirmed after the exact board and driver dependencies are
-known. This package does not convert the earlier one-week estimate into a
-validated delivery commitment.
+I'll confirm the port schedule once we've chosen the board and reviewed its
+driver requirements.
 
 ## Review feedback requested
 

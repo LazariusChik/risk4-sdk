@@ -14,8 +14,8 @@ Start with the [build guide](build.md). It takes the source examples to validate
 | [Game3D](game3d.md) | Software renderer features, app helpers, limits and resource lifecycle |
 | [Interfaces and limits](interface-notes.md) | Available SDK surfaces, runtime discovery and current limitations |
 | [Architecture](architecture.md) | How app code, the SDK and the separately supplied OS fit together |
-| [Demonstrations](media.md) | Overview/gameplay/UI/install recording slots and evidence requirements |
-| [Hardware evaluation](evaluation.md) | Proposed LILYGO integration, information exchange and acceptance sequence |
+| [Demonstrations](media.md) | System walkthrough, Minecraft server and earlier demos |
+| [Hardware evaluation](evaluation.md) | LILYGO port proposal, board details and integration checks |
 | [Distribution terms](distribution.md) | SDK licensing status and the closed-source core boundary |
 
 For code, browse the [examples](../examples/README.md). The root

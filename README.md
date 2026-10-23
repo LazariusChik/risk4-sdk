@@ -74,4 +74,4 @@ is closed source; compatible ProtoOS firmware is supplied separately.
 Kernel ABI **26** · Loader **5** · Manifest **5** · RV32 / `ilp32f`
 
 [Platform](docs/platform.md) · [Security](SECURITY.md) ·
-[Source snapshot](snapshot.json) · [SDK terms](docs/distribution.md)
+[SDK file manifest](snapshot.json) · [SDK terms](docs/distribution.md)

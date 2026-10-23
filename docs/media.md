@@ -23,19 +23,16 @@ An earlier development milestone covering the security-focused application OS,
 native app installation and system features. Compare this older build with
 the latest system demo above.
 
-## More recordings
+## Upcoming demos
 
-| Demo | Show | Video |
+I'm adding recordings of the following:
+
+| Demo | What I'll show | Video |
 | --- | --- | --- |
 | Isolation and permissions | A permission request and a denied operation, with enough logs to explain what happened | Coming soon |
 | Hardware access | An app using an available GPIO pin with a connected input or output | Coming soon |
 | App installation | Install and launch an app without reflashing; show Store updates | Coming soon |
 | Graphics and gameplay | A 2D app and a 3D scene running with actual input | Coming soon |
 
-Include the board, firmware build and app version with each recording. For
-hardware demos, show the wiring. Label planned connectivity demos separately
-from implemented GPIO functionality.
-
-Link videos rather than committing large files. A real device screenshot can
-serve as a clickable cover in the README. Check sharing permissions and hide
-credentials or private files before publishing.
+I'll include the board, firmware build and app version with each recording,
+and show the wiring for hardware demos.

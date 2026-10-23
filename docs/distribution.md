@@ -1,14 +1,14 @@
-# Distribution status
+# SDK distribution
 
-This repository is an engineering review snapshot of the RISK4 / ProtoOS
-application SDK, with compiled app-side runtime and graphics libraries. SDK distribution/license terms have not yet been
-selected. Source visibility does not by itself grant an open-source license.
+I'm sharing this SDK so you can build native apps for RISK4 / ProtoOS.
+It includes public headers, compiled runtime and graphics libraries,
+examples and build tools. The kernel and library implementations remain
+closed source.
 
-The OS kernel remains closed source. This repository supplies public headers, compiled libraries, examples
-and tools, not kernel source, firmware, signing keys, game assets or a working
-LILYGO port. Compatible evaluation firmware can be arranged separately with
-the project owner.
+I haven't finalized the SDK license yet. Publishing these files does not
+grant an open-source license; I'll add the distribution terms here when ready.
+Python and the compiler are installed separately under their own terms.
 
-The selected SDK terms will be added here and in a root license file before
-a public SDK release. Third-party dependencies are not vendored: Python and
-the compiler are installed separately, with their own terms.
+For a firmware evaluation or board port, get in touch with me through this
+repository. I'll provide the appropriate build and installation instructions
+for the board. Firmware, signing keys and game assets aren't included here.
